@@ -6,4 +6,4 @@ SilverStripe\CMS\Model\SiteTree:
     - BetterEmbed\SilverStripe\BetterEmbedExtender
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_css:
-    - betterembed/client/css/betterembed-admin.css
+    - betterembed/silverstripe-betterembed:client/css/betterembed-admin.css
