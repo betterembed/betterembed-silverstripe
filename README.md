@@ -1,3 +1,7 @@
+[![Latest Stable Version](https://poser.pugx.org/betterembed/silverstripe-betterembed/v/stable)](https://packagist.org/packages/betterembed/silverstripe-betterembed)
+[![Latest Unstable Version](https://poser.pugx.org/betterembed/silverstripe-betterembed/v/unstable)](https://packagist.org/packages/betterembed/silverstripe-betterembed)
+[![License](https://poser.pugx.org/betterembed/silverstripe-betterembed/license)](https://packagist.org/packages/betterembed/silverstripe-betterembed)
+
 # BetterEmbed SilverStripe CMS plugin
 
 BetterEmbed is a free service to easily integrate content like 
