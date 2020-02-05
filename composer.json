@@ -1,0 +1,26 @@
+{
+  "name": "betterembed/silverstripe-betterembed",
+  "description": "BetterEmbed integration for SilverStripe CMS",
+  "homepage": "https://github.com/betterembed/silverstripe-betterembed",
+  "type": "silverstripe-vendormodule",
+  "keywords": ["silverstripe", "betterembed", "facebook", "twitter", "instagram", "youtube"],
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/betterembed/silverstripe-betterembed/issues"
+  },
+  "require": {
+    "silverstripe/cms": "^4",
+    "silverstripe/framework": "^4"
+  },
+  "autoload": {
+    "psr-4": {
+        "BetterEmbed\\SilverStripe\\": "src/"
+    }
+  },
+  "extra": {
+    "installer-name": "silverstripe-betterembed",
+    "expose": [
+        "client"
+    ]
+  }
+}

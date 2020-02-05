@@ -1,0 +1,328 @@
+/* SS reset some inherited CSS styles */
+.betterembed *:before,
+.betterembed *:after {
+    content: none;
+}
+.betterembed__show-original-element {
+    color: unset;
+    border-radius: unset;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+}
+.betterembed__media img {
+    border: none;
+}
+.typography .betterembed__title {
+    color: unset;
+}
+.betterembed__msg p {
+    font-size: unset;
+}
+.typography .betterembed__msg-button-primary,
+.typography .betterembed__msg-button-primary:hover {
+    color: black;
+}
+.typography .betterembed__msg-button-secondary,
+.typography .betterembed__msg-button-secondary:hover {
+    color: white;
+}
+.typography .betterembed a:hover {
+    color: initial;
+    border: none;
+}
+/* end SS reset */
+
+/* BetterEmbed Feed */
+/* breaks Words when they are too long and would burst the layout. */
+.betterembed {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 550px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+}
+.betterembed.is-betterembed-msg-visible .betterembed__msg {
+    display: block;
+}
+.betterembed.is-betterembed-msg-visible .betterembed__show-original-element {
+    background-position: center right;
+}
+.betterembed.is-betterembed-remote-visible .betterembed__embed {
+    display: block;
+}
+.betterembed.is-betterembed-remote-visible .betterembed__item {
+    display: none;
+}
+.betterembed__show-original-element {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    cursor: pointer;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/310306/betterembed-icon.svg");
+    background-position: center right;
+    background-size: 23px 23px;
+    background-repeat: no-repeat;
+    height: 30px;
+    padding-right: 30px;
+    display: block;
+    background-color: transparent;
+    border: none;
+}
+.betterembed__show-original-element:focus {
+    outline: none;
+}
+.betterembed__type-facebook .betterembed__network {
+    color: #306199;
+}
+.betterembed__type-facebook .betterembed__body {
+    background-color: #306199;
+}
+.betterembed__type-linkedin .betterembed__network {
+    color: #007bb6;
+}
+.betterembed__type-linkedin .betterembed__body {
+    background-color: #007bb6;
+}
+.betterembed__type-twitter .betterembed__network {
+    color: #26c4f1;
+}
+.betterembed__type-twitter .betterembed__body {
+    background-color: #26c4f1;
+}
+.betterembed__type-googleplus .betterembed__network {
+    color: #e93f2e;
+}
+.betterembed__type-googleplus .betterembed__body {
+    background-color: #e93f2e;
+}
+.betterembed__type-youtube .betterembed__network {
+    color: #df1c31;
+}
+.betterembed__type-youtube .betterembed__body {
+    background-color: #df1c31;
+}
+.betterembed__type-pinterest .betterembed__network {
+    color: #b81621;
+}
+.betterembed__type-pinterest .betterembed__body {
+    background-color: #b81621;
+}
+.betterembed__type-pocket .betterembed__network {
+    color: #ed4054;
+}
+.betterembed__type-pocket .betterembed__body {
+    background-color: #ed4054;
+}
+.betterembed__type-github .betterembed__network {
+    color: #444;
+}
+.betterembed__type-github .betterembed__body {
+    background-color: #444;
+}
+.betterembed__type-instagram .betterembed__network {
+    color: #125688;
+}
+.betterembed__type-instagram .betterembed__body {
+    background-color: #125688;
+}
+.betterembed__type-hackernews .betterembed__network {
+    color: #ff6600;
+}
+.betterembed__type-hackernews .betterembed__body {
+    background-color: #ff6600;
+}
+.betterembed__type-delicious .betterembed__network {
+    color: #0b79e5;
+}
+.betterembed__type-delicious .betterembed__body {
+    background-color: #0b79e5;
+}
+.betterembed__type-vk .betterembed__network {
+    color: #4d71a9;
+}
+.betterembed__type-vk .betterembed__body {
+    background-color: #4d71a9;
+}
+.betterembed__type-print .betterembed__network {
+    color: #8d98a2;
+}
+.betterembed__type-print .betterembed__body {
+    background-color: #8d98a2;
+}
+.betterembed__type-whatsapp .betterembed__network {
+    color: #43d854;
+}
+.betterembed__type-whatsapp .betterembed__body {
+    background-color: #43d854;
+}
+.betterembed__type-xing .betterembed__network {
+    color: #126567;
+}
+.betterembed__type-xing .betterembed__body {
+    background-color: #126567;
+}
+.betterembed__type-addthis .betterembed__network {
+    color: #ff5c3e;
+}
+.betterembed__type-addthis .betterembed__body {
+    background-color: #ff5c3e;
+}
+.betterembed__type-tumblr .betterembed__network {
+    color: #35465c;
+}
+.betterembed__type-tumblr .betterembed__body {
+    background-color: #35465c;
+}
+.betterembed__type-flattr .betterembed__network {
+    color: #f67c1a;
+}
+.betterembed__type-flattr .betterembed__body {
+    background-color: #f67c1a;
+}
+.betterembed__type-diaspora .betterembed__network {
+    color: #bbbbbb;
+}
+.betterembed__type-diaspora .betterembed__body {
+    background-color: #bbbbbb;
+}
+.betterembed__type-reddit .betterembed__network {
+    color: #ff4500;
+}
+.betterembed__type-reddit .betterembed__body {
+    background-color: #ff4500;
+}
+.betterembed__type-stumbleupon .betterembed__network {
+    color: #ff2b25;
+}
+.betterembed__type-stumbleupon .betterembed__body {
+    background-color: #ff2b25;
+}
+.betterembed__item {
+    overflow: hidden;
+}
+.betterembed__network {
+    /* Non standard for webkit */
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    padding-right: 30px;
+    margin: 0 0 10px 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4c5559;
+}
+.betterembed__media img {
+    width: 100%;
+    height: auto;
+}
+.betterembed__title {
+    clear: both;
+    padding: 0 15px;
+    margin: 15px 0 0 0;
+    /* Non standard for webkit */
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    font-size: 22px;
+}
+.betterembed__text {
+    clear: both;
+    padding: 15px;
+    /* Non standard for webkit */
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    font-size: 18px;
+}
+.betterembed__text a {
+    color: #fff;
+    font-weight: inherit;
+    /* could be removed */
+    text-decoration: underline;
+}
+.betterembed__read-more {
+    color: #fff;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.betterembed__body {
+    background: #4c5559;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+}
+.betterembed__msg {
+    display: none;
+    font-size: 16px;
+    position: absolute;
+    padding: 20px;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    background-color: rgba(0, 0, 0, 0.84);
+    color: white;
+    text-align: center;
+    z-index: 5;
+}
+.betterembed__msg p {
+    margin: 0;
+}
+.betterembed__msg a:hover {
+    border: none;
+}
+.betterembed__msg-button-primary {
+    display: -webkit-inline-box;
+    display: inline-flex;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    border: none;
+}
+.betterembed__msg-button-secondary {
+    display: -webkit-inline-box;
+    display: inline-flex;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+}
+.betterembed__footer {
+    margin: 0 15px;
+    padding: 15px 0;
+    border-top: 1px solid #fff;
+    font-size: 16px;
+    overflow: auto;
+}
+.betterembed__author a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.betterembed__author a:hover {
+    text-decoration: underline;
+}
+.betterembed__embed {
+    display: none;
+    padding-top: 30px;
+}
+.betterembed__embed > * {
+    width: 100% !important;
+    overflow-x: none;
+    margin: 0;
+    padding: 0;
+}
+
+.betterembed__embed > iframe {
+    width: 100%;
+}

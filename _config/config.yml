@@ -1,0 +1,9 @@
+---
+Name: betterembed
+---
+SilverStripe\CMS\Model\SiteTree:
+  extensions:
+    - BetterEmbed\SilverStripe\BetterEmbedExtender
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_css:
+    - betterembed/client/css/betterembed-admin.css
