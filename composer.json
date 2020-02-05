@@ -5,6 +5,10 @@
   "type": "silverstripe-vendormodule",
   "keywords": ["silverstripe", "betterembed", "facebook", "twitter", "instagram", "youtube"],
   "license": "BSD-3-Clause",
+  "authors": [
+    {"name": "acolono GmbH","email": "office+betterembed-silverstripe@acolono.com"},
+    {"name": "Dejan Lacmanovic"}
+  ],
   "support": {
     "issues": "https://github.com/betterembed/silverstripe-betterembed/issues"
   },
