@@ -53,7 +53,8 @@ class BetterEmbedObject extends DataObject
     {
         //if(!$this->isInDB()) {
 
-        $feed = @file_get_contents('https://api.betterembed.com/api/v0/item?url=' . $this->Link);
+        $link = urlencode($this->Link);
+        $feed = @file_get_contents('https://api.betterembed.com/api/v0/item?url=' . $link);
 
         if ($feed) {
             $post = json_decode($feed, true);
