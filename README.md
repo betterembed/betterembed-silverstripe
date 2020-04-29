@@ -1,3 +1,4 @@
+[![SilverStripe supported module](https://img.shields.io/badge/silverstripe-supported-0071C4.svg)](https://www.silverstripe.org/software/addons/silverstripe-commercially-supported-module-list/)
 [![Latest Stable Version](https://poser.pugx.org/betterembed/silverstripe-betterembed/v/stable)](https://packagist.org/packages/betterembed/silverstripe-betterembed)
 [![Latest Unstable Version](https://poser.pugx.org/betterembed/silverstripe-betterembed/v/unstable)](https://packagist.org/packages/betterembed/silverstripe-betterembed)
 [![License](https://poser.pugx.org/betterembed/silverstripe-betterembed/license)](https://packagist.org/packages/betterembed/silverstripe-betterembed)
